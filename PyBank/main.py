@@ -10,6 +10,19 @@ if not os.path.exists(budget_file_path):
     print("File not found.")
     exit()
 
+# Read the CSV file and confirm storing of the header
+with open(budget_file_path, mode='r') as csvfile:
+    reader = csv.reader(csvfile)
+    header = next(reader)  # Store the header row
+    print("Header:", header)  # Print the header to verify
+
+    # Print a sample of two rows of data
+    for i, row in enumerate(reader):
+        if i < 2:  # Only show the first two rows
+            print("Sample Row:", row)
+        else:
+            break  # Exit the loop after two rows
+
 # Initialize variables
 total_months = 0
 net_total = 0
