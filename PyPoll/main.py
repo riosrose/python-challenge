@@ -48,7 +48,10 @@ with open(election_file_path, mode='r') as csvfile:
 
 # Prepare analysis results
 analysis_results = (
+    "Election Results\n"
+    "----------------------------\n"
     f"Total Votes: {total_votes}\n"
+    "----------------------------\n"
     f"Candidates and Votes:\n"
 )
 
