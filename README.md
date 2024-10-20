@@ -13,15 +13,15 @@ Source Code stored in this repo demonstrates python scipting to read, derive sta
 1) PyBank (folder)
    - analysis (folder)
        - financial_analysis.txt : results from pythOn scripting.          
-   b)Resources
-     - budget_data.csv : 
-   c) main.py : Python notebook
+   - Resources
+       - budget_data.csv : 
+   - main.py : Python notebook
 3) PyPoll
-   a)analysis
+   - analysis
      - electronic_analysis.txt  : results from python scripting. 
-   b)Resources
+   - Resources
      - election_data.csv : 
-   c) main.py :Python notebook
+   - main.py :Python notebook
 
 # Resources
 Resources utilized for support with debugging, and support with scripting: Xpert Learning, where needed.  
