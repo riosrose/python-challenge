@@ -11,8 +11,8 @@ This challenges dataset is comprised of two datasets. one per challenge to:
 # Code
 Source Code stored in this repo demonstrates python scipting to read, derive stats and saving of results the following files: 
 1) PyBank (folder)
-   a)analysis (folder)
-     - financial_analysis.txt : results from pythOn scripting.          
+   - analysis (folder)
+       - financial_analysis.txt : results from pythOn scripting.          
    b)Resources
      - budget_data.csv : 
    c) main.py : Python notebook
