@@ -16,7 +16,7 @@ Source Code stored in this repo demonstrates python scipting to read, derive sta
    b)Resources
      - budget_data.csv : 
    c) main.py : Python notebook
-2) PyPoll
+3) PyPoll
     a)analysis
      - electronic_analysis.txt  : results from python scripting. 
     b)Resources
